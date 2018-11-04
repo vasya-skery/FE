@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS practice</title>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                    <h2 class="text-center pt-5 pb-5">Train list</h2>
+                    <form method="GET" class="pb-5 pt-5">
+                        <div class="form-group">
+                            <label for="selectNambersOfTrains">Кількість поїздів</label>
+                            <select class="form-control" id="selectNambersOfTrains">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                </select>
+                            <small class="form-text text-muted">Максимальна кількість поїздів 10</small>
+                        </div>
+                        <button type="button" id="btn" class="btn btn-primary">Submit</button>
+                    </form>
+                    <table id="table" class="table">
+                            <thead>
+                              <tr>
+                                <th scope="col">Номер потягу</th>
+                                <th scope="col">Пункт відправлення</th>
+                                <th scope="col">Пункт прибуття</th>
+                                <th scope="col">День тижня</th>
+                                <th scope="col">Відправлення</th>
+                                <th scope="col">Прибуття</th>
+                                <th scope="col">Вартість</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <!-- <tr>
+                                <th scope="row">173Б</th>
+                                <td>Київ</td>
+                                <td>Львів</td>
+                                <td>Вт</td>
+                                <td>22:20</td>
+                                <td>22:20</td>
+                                <td>100 грн</td>
+                              </tr> -->
+                            </tbody>
+                          </table>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
